@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Others -->
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+
+  <!-- External -->
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/noto-fonts" />
+  <remove-project name="platform/external/roboto-fonts" />
+  <remove-project name="platform/external/google-fonts/cutive-mono" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/armnn" />
+  <remove-project name="platform/external/android-nn-driver" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- Device -->
+  <remove-project name="device/common" />
+  <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google/coral" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/bramble" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sm8150/media" />
+  <remove-project name="platform/hardware/qcom/sm7250/display" />
+  <remove-project name="platform/hardware/qcom/sm7250/media" />
+  <remove-project name="device/google/gs101" />
+  <remove-project name="device/google/gs101-sepolicy" />
+  <remove-project name="device/google/raviole" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/bt" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+
+</manifest>

@@ -1,25 +1,33 @@
-# ProtonAOSP
+# PXOSP
 
-ProtonAOSP is a minimal custom Android ROM focused on UI/UX and performance, with a touch of security and privacy. It is based on [Android Open Source Project (AOSP)](https://source.android.com/).
+PXOSP (Proton Xtended Open Source Project) is a fork based on ProtonAOSP to enchantment user experience with useful addition features.
 
 ## Getting source code
 
 First, make sure you have an [Android build environment](https://source.android.com/setup/build/initializing) and the [repo tool](https://source.android.com/setup/build/downloading) set up. After that, run the following commands:
 
 ```
-repo init -u https://github.com/ProtonAOSP/android_manifest -b sc
-repo sync
+repo init -u https://github.com/PXOSP-ROM/android_manifest -b sc-v2
+repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 
 This is a large download that will take approximately 100 GB of disk space, so plan accordingly.
 
 ## Building
 
-You will need to create a device tree to build this ROM for your device. Below are some examples that have been customized to work well with ProtonAOSP:
+First, you need to make and sync device trees. After that you can continue:
 
-- [Unified base tree for Pixel 5 and 4a 5G](https://github.com/ProtonAOSP/android_device_google_redbull)
-- [Device-specific tree for Pixel 5](https://github.com/ProtonAOSP/android_device_google_redfin)
-- [Device-specific tree for Pixel 4a 5G](https://github.com/ProtonAOSP/android_device_google_bramble)
-- [Proprietary vendor blobs tree for Pixel 5 and 4a 5G](https://github.com/ProtonAOSP/android_vendor_google)
+```
+. build/envsetup.sh
+lunch pxosp_{codename}-user{debug}
+m bacon
+```
 
-Good luck!
+## Credits
+
+* ProtonAOSP - For rom base
+* LineageOS - For their apps/icons
+* PixelExperience - For CAF repos
+* All roms from where I picked any changes
+
+Good luck & thanks for choosing us!
