@@ -21,6 +21,9 @@
   <project name="android_external_tinyxml" path="external/tinyxml" remote="pxosp" groups="pxosp" />
   <project name="android_external_faceunlock" path="external/faceunlock" remote="pxosp" groups="pxosp" />
 
+  <!-- Device -->
+  <project name="android_device_pxosp_sepolicy" path="device/pxosp/sepolicy" remote="pxosp" groups="pxosp" />
+
   <!-- Hardware -->
   <project name="android_hardware_pxosp_interfaces" path="hardware/pxosp/interfaces" remote="pxosp" groups="pxosp" />
 
