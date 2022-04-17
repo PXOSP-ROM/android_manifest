@@ -62,5 +62,6 @@
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
 </manifest>

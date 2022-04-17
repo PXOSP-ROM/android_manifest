@@ -57,7 +57,6 @@
   <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
 
   <!-- System -->
-  <project name="android_system_sepolicy" path="system/sepolicy" remote="proton" groups="proton" />
   <project name="android_system_vold" path="system/vold" remote="proton" groups="proton" />
 
   <!-- Packages -->
