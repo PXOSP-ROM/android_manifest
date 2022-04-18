@@ -16,6 +16,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project name="android_manifest" path="manifest" remote="pxosp" groups="pxosp" />
+  <project name="android_libcore" path="libcore" remote="pxosp" groups="pxosp" />
+  <project name="android_art" path="art" remote="pxosp" groups="pxosp" />
+  <project name="android_bionic" path="bionic" remote="pxosp" groups="pxosp" />
+  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="pxosp" groups="pxosp" />
 
   <!-- External -->
   <project name="android_external_tinyxml" path="external/tinyxml" remote="pxosp" groups="pxosp" />
@@ -29,12 +33,15 @@
 
   <!-- Frameworks -->
   <project name="android_frameworks_base" path="frameworks/base" remote="pxosp" groups="pxosp" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="pxosp" groups="pxosp" />
   <project name="android_frameworks_native" path="frameworks/native" remote="pxosp" groups="pxosp" />
+  <project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="pxosp" groups="pxosp" />
 
   <!-- System -->
   <project name="android_system_core" path="system/core" remote="pxosp" groups="pxosp" />
   <project name="android_system_sepolicy" path="system/sepolicy" remote="pxosp" groups="pxosp" />
   <project name="android_system_bt" path="system/bt" remote="pxosp" groups="pxosp" />
+  <project name="android_system_vold" path="system/vold" remote="pxosp" groups="pxosp" />
 
   <!-- Packages -->
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="pxosp" groups="pxosp" />
@@ -43,6 +50,11 @@
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="pxosp" groups="pxosp" />
   <project name="android_packages_apps_FaceUnlockService" path="packages/apps/FaceUnlockService" remote="pxosp" groups="pxosp" />
   <project name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="pxosp" groups="pxosp" />
+  <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="pxosp" groups="pxosp" />
+  <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="pxosp" groups="pxosp" />
+  <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="pxosp" groups="pxosp" />
+  <project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="pxosp" groups="pxosp" />
+  <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="pxosp" groups="pxosp" />
 
   <!-- Vendor -->
   <project name="android_vendor_pxosp" path="vendor/pxosp" remote="pxosp" groups="pxosp" />

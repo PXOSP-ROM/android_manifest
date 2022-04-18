@@ -21,6 +21,8 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/libs/net" />
+  <remove-project name="platform/frameworks/av" />
 
   <!-- Device -->
   <remove-project name="device/common" />

@@ -25,12 +25,6 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="twelve" />
 
-  <!-- Others -->
-  <project name="android_libcore" path="libcore" remote="proton" groups="proton" />
-  <project name="android_art" path="art" remote="proton" groups="proton" />
-  <project name="android_bionic" path="bionic" remote="proton" groups="proton" />
-  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="proton" groups="proton" />
-
   <!-- External -->
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
@@ -56,23 +50,15 @@
   <!-- Device -->
   <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
 
-  <!-- System -->
-  <project name="android_system_vold" path="system/vold" remote="proton" groups="proton" />
-
   <!-- Packages -->
   <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="proton" groups="proton" />
-  <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="proton" groups="proton" />
   <project name="android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="proton" groups="proton" />
-  <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="proton" groups="proton" />
-  <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="proton" groups="proton" />
-  <project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="proton" groups="proton" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="proton" groups="proton" />
   <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="proton" groups="proton" />
   <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="proton" groups="proton" />
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="proton" groups="proton" />
   <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="proton" groups="proton" />
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="proton" groups="proton" />
-  <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="proton" groups="proton" />
   <project name="android_packages_apps_GmsCompat" path="packages/apps/GmsCompat" remote="proton" groups="proton" />
   <project name="android_packages_apps_ProtonWallpaperStub" path="packages/apps/ProtonWallpaperStub" remote="proton" groups="proton" />
   <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="proton" groups="proton" />
