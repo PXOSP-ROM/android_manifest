@@ -23,7 +23,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixel" />
 
   <!-- Hardware repos - HALS -->
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pixel">
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pxosp" group="pxosp" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
