@@ -26,6 +26,8 @@
   <project name="android_external_tinyxml" path="external/tinyxml" remote="pxosp" groups="pxosp" />
   <project name="android_external_json-c" path="external/json-c" remote="pxosp" groups="pxosp" />
   <project name="android_external_faceunlock" path="external/faceunlock" remote="pxosp" groups="pxosp" />
+  <project name="android_external_gptfdisk" path="external/gptfdisk" remote="pxosp" groups="pxosp" />
+  <project name="android_external_mksh" path="external/mksh" remote="pxosp" groups="pxosp" />
 
   <!-- Device -->
   <project name="android_device_pxosp_sepolicy" path="device/pxosp/sepolicy" remote="pxosp" groups="pxosp" />
