@@ -34,6 +34,7 @@
 
   <!-- Hardware -->
   <project name="android_hardware_pxosp_interfaces" path="hardware/pxosp/interfaces" remote="pxosp" groups="pxosp" />
+  <project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="pxosp" groups="pxosp" />
 
   <!-- Frameworks -->
   <project name="android_frameworks_base" path="frameworks/base" remote="pxosp" groups="pxosp" />
