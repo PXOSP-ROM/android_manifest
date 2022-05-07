@@ -72,7 +72,6 @@
   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
 
   <!-- Vendor -->
-  <project name="ProtonAOSP/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="sc" />
   <project name="android_vendor_lawnicons" path="vendor/lawnicons" remote="proton" groups="proton" />
 
 </manifest>

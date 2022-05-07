@@ -69,6 +69,7 @@
   <!-- Vendor -->
   <project name="android_vendor_pxosp" path="vendor/pxosp" remote="pxosp" groups="pxosp" />
   <project name="android_vendor_google_pixel" path="vendor/google/pixel" remote="pxosp" groups="pxosp" />
+  <project name="PXOSP-ROM/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="sc-v2" groups="pxosp" />
   <project name="android_vendor_custom-preference" path="vendor/custom-preference" remote="pxosp" groups="pxosp" />
 
   </manifest>
