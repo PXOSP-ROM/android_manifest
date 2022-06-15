@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Packages -->
+  <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_Recorder" path="packages/apps/Recorder" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_Tag" path="packages/apps/Tag" remote="lineage" groups="lineage" />
+  <project name="android_packages_inputmethods_LeanbackIME" path="packages/inputmethods/LeanbackIME" remote="lineage" groups="lineage" />
+  <project name="android_packages_screensavers_PhotoTable" path="packages/screensavers/PhotoTable" remote="lineage" groups="lineage" />
+  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="lineage" groups="lineage" />
+  <project name="android_packages_providers_BookmarkProvider" path="packages/providers/BookmarkProvider" remote="lineage" groups="lineage" />
+  <project name="android_packages_wallpapers_LivePicker" path="packages/wallpapers/LivePicker" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="lineage" groups="lineage" />
+  <project name="android_packages_services_Mms" path="packages/services/Mms" remote="lineage" groups="lineage" />
+  <project name="android_packages_providers_BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" remote="lineage" groups="lineage" />
+  <project name="android_packages_providers_CallLogProvider" path="packages/providers/CallLogProvider" remote="lineage" groups="lineage" />
+  <project name="android_packages_providers_CalendarProvider" path="packages/providers/CalendarProvider" remote="lineage" groups="lineage" />
+  <project name="android_packages_apps_Stk" path="packages/apps/Stk" remote="lineage" groups="lineage" />
+  <project name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="lineage" groups="lineage" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="lineage" groups="lineage" />
+  <project name="android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="lineage" groups="lineage" />
+  <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="lineage" groups="lineage" />
+  <project name="android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="lineage" groups="lineage" />
+  <project name="android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="lineage" groups="lineage" />
+
+</manifest>
