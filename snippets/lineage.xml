@@ -32,4 +32,10 @@
   <project name="android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="lineage" groups="lineage" />
   <project name="android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="lineage" groups="lineage" />
 
+  <!-- Hardware -->
+  <project name="android_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" remote="lineage" groups="lineage" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" remote="lineage" groups="lineage" revision="lineage-19.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" remote="lineage" groups="lineage" revision="lineage-19.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" remote="lineage" groups="lineage" revision="lineage-19.1-caf-sdm845" />
+
 </manifest>

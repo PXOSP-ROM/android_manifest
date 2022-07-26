@@ -87,5 +87,6 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/apps/Nfc" />
 
 </manifest>
